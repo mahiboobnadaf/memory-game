@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 400px;
+    width:500px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,220px);
+    gap: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.box{
+    height: 190px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-tag{
+    /* display: flex; */
+    /* align-items: center; */
+    width: auto;
+    
+}
+
+.white-color{
+    background-color: white;
+    border:2px solid black;
+}
+
+.black-color  {
+    background-color: black;
+    z-index: 9;   
+    
+}
+
+.yellow-color{
+    background-color: yellow;
+}
+
+.red-color{
+    background-color: rgba(255, 0, 0, 0.735);
+}
+
+.borders{
+    border:2px solid black
+}
+
+.red{
+    color:rgb(255, 0, 0);
+}
+
+/*
+created on: https://code44.org
+Go to: https://code44.org/css-generators/font-generator/font-editor.php
+*/
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+.text{
+    width:100vw         ;
+    font-family: Capriola, sans-serif;
+    text-align: center;
+    font-size: 29px;
+    color: rgb(196, 250, 0);
+    background-color: rgba(2, 5, 34, 0.83);
+    text-shadow: rgba(255, 73, 66, 0.88) 2px 2px 2px;
+}
+
+.flexx.c{
+    display:flex;
+
+}
